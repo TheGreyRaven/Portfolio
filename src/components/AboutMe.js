@@ -1,4 +1,4 @@
-import { Blockquote, TypographyStylesProvider } from "@mantine/core"
+import { Anchor, Blockquote, TypographyStylesProvider } from "@mantine/core"
 
 const aboutMeInfo = [
     `Ever since I was a toddler I have always had a huge interest in cars, electronics, computers and just technology in general.`,
@@ -26,6 +26,7 @@ const AboutMe = () => {
                 You spend way to much time infront of the computer!
             </Blockquote>
             {aboutMeInfo.map((info, index) => <p key={index}>{info}</p>)}
+            <Anchor href="https://github.com/TheGreyRaven">Visit my GitHub</Anchor>
         </TypographyStylesProvider>
     )
 }
