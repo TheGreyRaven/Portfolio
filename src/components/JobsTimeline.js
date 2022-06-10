@@ -12,13 +12,13 @@ const timeLine = [{
 {
     title: "Fullstack Developer / IT Technician",
     icon: <CodeReviewIcon size={12} />,
-    desc: "I worked as a fullstack developer / it technician managing virtual machines and hosting enviroments, I developed APIs and publicly available websites & I mostly used NodeJS, Express, React, MongoDB and MySQL.",
+    desc: "I worked as a fullstack developer / it technician managing virtual machines and hosting environments, I developed APIs and publicly available websites & I mostly used NodeJS, Express, React, MongoDB and MySQL.",
     period: "2021-05 - 2021-08",
-    dashed: true
 }, {
-    title: "???",
+    title: "Fullstack",
     icon: <FlameIcon size={12} />,
-    desc: "Currently looking for a new and exciting job!"
+    desc: "I'm currently working as a fullstack developer where I'm building large scale eCommerce sites using tools like NextJS, Sanity.io and Centra.com just to name a few. I also developed a few server-less functions!",
+    period: "2021-12 - Currently",
 }]
 
 const mySkills = [{
